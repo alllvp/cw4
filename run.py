@@ -14,3 +14,7 @@ def shell():
         "Movie": Movie,
         "User": User,
     }
+
+
+if __name__ == '__main__':
+    app.run(host="localhost", debug=True)

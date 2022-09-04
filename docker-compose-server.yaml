@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  app:
+    image: alllvp/flask-app:version-5
+    ports:
+      - 80:80
