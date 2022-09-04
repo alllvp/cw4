@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    image: alllvp/flask-app:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    ports:
+      - 80:80
+    volumes:
+      - ./docker_ci_config.py:/code/default_config.py
