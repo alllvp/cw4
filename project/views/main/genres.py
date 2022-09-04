@@ -15,7 +15,7 @@ class GenresView(Resource):
         """
         Get all genres.
         """
-        return genre_service.get_all(**page_parser.parse_args())
+        return "OK" #genre_service.get_all(**page_parser.parse_args())
 
 
 @api.route('/<int:genre_id>/')
