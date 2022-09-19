@@ -4,7 +4,7 @@ from project.server import create_app, db
 
 app = create_app(config)
 
-
+# comment
 @app.shell_context_processor
 def shell():
     return {
